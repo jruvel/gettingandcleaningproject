@@ -13,7 +13,8 @@
     5 STANDING
     6 LAYING
 
-    Values built by using raw data activity id from y_test.txt and y_train.txt and looking up the value from the activity_labels.txt
+    Values built by using raw data activity id from y_test.txt and y_train.txt 
+    and looking up the value from the activity_labels.txt
     
 All observed variables that used mean() or std() 
 
@@ -51,5 +52,7 @@ All observed variables that used mean() or std()
     "frequency.bodybodygyromag.mean"     "frequency.bodybodygyromag.std"     
     "frequency.bodybodygyrojerkmag.mean" "frequency.bodybodygyrojerkmag.std"
     
-    names transformed by adding back in time and frequency identifiers for t and f respectivly.  
     values are an average across all subject and activity combination 
+    names transformed by adding back in time and frequency identifiers for t and f respectivly. 
+    names were also transformed by being cleaned up - text was put to lower case, special characters were removed or          replaced with a "."
+    
