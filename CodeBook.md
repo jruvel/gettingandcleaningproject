@@ -54,5 +54,6 @@ All observed variables that used mean() or std()
     
     values are an average across all subject and activity combination 
     names transformed by adding back in time and frequency identifiers for t and f respectivly. 
-    names were also transformed by being cleaned up - text was put to lower case, special characters were removed or          replaced with a "."
+    names were also transformed by being cleaned up - text was put to lower case, 
+    special characters were removed or replaced with a "."
     
